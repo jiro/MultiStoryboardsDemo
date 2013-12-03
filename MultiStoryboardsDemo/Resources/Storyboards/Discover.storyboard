@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="GvK-JJ-0fq">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller - Discover-->
+        <scene sceneID="X2L-c1-AXd">
+            <objects>
+                <navigationController definesPresentationContext="YES" id="GvK-JJ-0fq" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Discover" id="fa6-nT-tQY"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="cK0-fv-v0J">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="PTE-r7-hKl" kind="relationship" relationship="rootViewController" id="FFF-MX-KM4"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Cxs-LW-8L6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-375" y="-6"/>
+        </scene>
+        <!--View Controller - Discover-->
+        <scene sceneID="iNQ-FN-UoN">
+            <objects>
+                <viewController id="PTE-r7-hKl" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="uND-1V-NFs"/>
+                        <viewControllerLayoutGuide type="bottom" id="tyC-df-rwH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="vXg-oK-Q2m">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Discover" id="aiS-3w-xxM"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IrO-oW-Naz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="-6"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
